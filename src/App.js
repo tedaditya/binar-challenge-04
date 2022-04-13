@@ -1,6 +1,6 @@
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import MainRoute from './route/Mainroute';
+import MainRoute from './route/MainRoute';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

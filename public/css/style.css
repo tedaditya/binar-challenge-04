@@ -3,10 +3,8 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-
-/* untuk header */
-.main-nav,
-.hero {
+/* Header */
+.main-nav, .hero {
   background-color: #F1F3FF !important;
 }
 
@@ -42,7 +40,7 @@ body {
   margin: 0px 32px 0px 32px;
 }
 
-/*Bagian Sewa & Rental Mobil Terbaik */
+/* Hero */
 
 .hero {
   position: relative;
@@ -327,4 +325,8 @@ body {
 .detail-page .detail-section .card-detail-mobil .card-body .btn-lanjut:hover {
   background-color: #9adf9c;
   color: white;
+}
+
+.jml-penumpang{
+  width: 20px !important;
 }

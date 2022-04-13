@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import Header from '../Header/Header'
 
-export default function FormSearch() {
+export default function Form() {
     const navigate = useNavigate();
 
     const handleSubmit = () => {
@@ -51,7 +51,7 @@ export default function FormSearch() {
                                         <div className="col-auto">
                                             <span>Jumlah Penumpang (optional)</span>
                                             <div className="input-group">
-                                                <input type="number" className="form-control" placeholder="Jumlah Penumpang" />
+                                                <input type="number" className="form-control jml-penumpang" placeholder="Jumlah Penumpang"/>
                                             </div>
                                         </div>
                                         <div className="col-auto align-self-end">
